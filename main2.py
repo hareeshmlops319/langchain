@@ -7,7 +7,6 @@ from langchain_core.messages import HumanMessage
 from langchain_openai import ChatOpenAI
 from langchain_tavily import TavilySearch
 from pydantic import BaseModel, Field
-#from pydantic import List
 
 
 class  Source(BaseModel):
