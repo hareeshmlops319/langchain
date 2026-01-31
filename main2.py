@@ -7,7 +7,7 @@ from langchain_core.messages import HumanMessage
 from langchain_openai import ChatOpenAI
 from langchain_tavily import TavilySearch
 from pydantic import BaseModel, Field
-
+from typing import List
 
 class  Source(BaseModel):
     """Schema for a agent source used by the agnet"""
